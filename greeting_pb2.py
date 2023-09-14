@@ -13,17 +13,17 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0egreeting.proto\x12\x08greeting\"\"\n\x0fGreetingRequest\x12\x0f\n\x07message\x18\x01 \x01(\t\"#\n\x10GreetingResponse\x12\x0f\n\x07message\x18\x01 \x01(\t2V\n\x0fGreetingService\x12\x43\n\x08greeting\x12\x19.greeting.GreetingRequest\x1a\x1a.greeting.GreetingResponse\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0egreeting.proto\x12\x10\x63om.example.grpc\"\"\n\x0fGreetingRequest\x12\x0f\n\x07message\x18\x01 \x01(\t\"#\n\x10GreetingResponse\x12\x0f\n\x07message\x18\x01 \x01(\t2f\n\x0fGreetingService\x12S\n\x08greeting\x12!.com.example.grpc.GreetingRequest\x1a\".com.example.grpc.GreetingResponse\"\x00\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'greeting_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GREETINGREQUEST._serialized_start=28
-  _GREETINGREQUEST._serialized_end=62
-  _GREETINGRESPONSE._serialized_start=64
-  _GREETINGRESPONSE._serialized_end=99
-  _GREETINGSERVICE._serialized_start=101
-  _GREETINGSERVICE._serialized_end=187
+  _GREETINGREQUEST._serialized_start=36
+  _GREETINGREQUEST._serialized_end=70
+  _GREETINGRESPONSE._serialized_start=72
+  _GREETINGRESPONSE._serialized_end=107
+  _GREETINGSERVICE._serialized_start=109
+  _GREETINGSERVICE._serialized_end=211
 # @@protoc_insertion_point(module_scope)
